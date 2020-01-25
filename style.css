@@ -1,0 +1,686 @@
+/*RESET.CSS*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*END RESET.CSS*/
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+}
+.center {
+  max-width: 1145px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container1 {
+  background-image: url("./images/background.png");
+  max-height: 790px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container1 .logo span {
+  position: relative;
+  top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.container1 .menu ul li {
+  display: inline-block;
+}
+.container1 .menu ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 0 17px;
+}
+.container1 .menu {
+  margin-top: 22px;
+  margin-left: 47%;
+}
+.container1 h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 265px;
+}
+.container1 .descr {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Roboto Slab", "serif";
+  margin-top: 33px;
+}
+
+.container1 .btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container1 .btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 17px 33px;
+}
+
+.container2 .cards div {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  margin: 75px 1.4% 100px 1.4%;
+}
+
+.container2 .cards svg {
+  font-size: 46px;
+  color: #c0301c;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  text-align: center;
+  padding: 20px;
+}
+
+.container2 .cards #a {
+  font-size: 46px;
+  color: #c0301c;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  padding: 0px;
+  width: 95px;
+  height: 95px;
+}
+
+.container2 .cards #b {
+  font-size: 46px;
+  color: #c0301c;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  padding: 21px 15px;
+}
+
+.container2 h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 30px;
+  margin-top: 84px;
+}
+.container2 i {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #555555;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.container2 .hat {
+  text-align: center;
+}
+.container2 .cards h3 {
+  font-size: 14px;
+  color: #555555;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+.container2 .cards span {
+  font-size: 14px;
+  color: #555555;
+  font-family: "Roboto Slab", "serif";
+  line-height: 1.5em;
+}
+.container3 {
+  padding-top: 100px;
+  text-align: center;
+  background-color: #f8f8f8;
+  max-width: 100%;
+}
+.container3 h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: #555555;
+  margin-bottom: 30px;
+  margin-top: 84px;
+}
+.container3 i {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #555555;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.container3 .hat {
+  text-align: center;
+  padding-bottom: 70px;
+  font-family: "Roboto Slab", "serif";
+  color: #555555;
+}
+.container3 .center .column{
+  column-count: 2;
+  column-width: 500px;
+  column-gap: 30px;
+  height: 230px;
+  text-align: left;
+  font-family: "Roboto Slab", "serif";
+  color: #555555;
+  line-height: 1.5em;
+}
+
+.container4 {
+  text-align: center;
+  width: 82%;
+  margin: 100px auto 0px auto;
+}
+
+.container4 h2 {
+  text-align: center;
+  font-size: 20px;
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+.container4 i {
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: #555555;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container4 .submenu li {
+  display: inline-block;
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  padding: 0 14px;
+}
+.container4 .submenu li a {
+  text-decoration: none;
+  color: #555555;
+}
+
+.container4 .submenu li a:hover {
+  text-decoration: none;
+  color: #c0301c;
+}
+
+.container4 .submenu {
+  margin-bottom: 70px;
+}
+
+.container4 .galery div {
+  display: inline-block;
+  width: 30%;
+  margin: 0 0.5%;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.container4 .galery div .cursor {
+  position: absolute;
+  left: 0.8vh;
+  bottom: -3.8vh;
+  right: 0;
+  top: 0;
+  display: none;
+  text-align: center;
+  max-width: 96%;
+  font-family: Roboto Slab, serif;
+}
+
+.container4 .galery div .cursor .okno {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container4 .galery div .cursor .okno .ok_1 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container4 .galery div .cursor .okno .ok_2 {
+  font-size: 9px;
+  margin-top: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container4 .galery div .cursor .view {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.container4 .galery div .cursor .view a {
+  padding: 8px 20px 8px 20px;
+  background-color: #ffffff;
+  color: #c0301c;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.container4 .galery div .cursor {
+  width: 100%;
+}
+
+.container4 .galery div:hover .cursor {
+  display: block;
+  background-color: rgba(192, 48, 28, 0.5);
+}
+
+.container4 .galery div img {
+  max-width: 100%;
+}
+
+.container5 {
+  background-image: url("./images/imagebkg1.png"), url("./images/imagebkg.png");
+  max-height: 370px;
+  height: 100vh;
+}
+
+.container5 .centr {
+  margin-top: 28vh;
+}
+.container5 .str1 {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Roboto Slab serif";
+  padding-top: 12vh;
+}
+
+.container5 .str2 {
+  text-align: center;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Roboto Slab", "serif";
+  margin-top: 22px;
+}
+
+.container5 .btn {
+  text-align: center;
+  margin-top: 10vh;
+}
+.container5 .btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  border: 2px solid #ffffff;
+  padding: 17px 33px;
+}
+
+.container6 {
+  background-color: #f8f8f8;
+  padding-top: 100px;
+}
+.container6 .centr {
+  margin-left: 22%;
+  margin-right: 22%;
+}
+.container6 .cards {
+  display: inline-block;
+}
+
+.container6 .centr .img1 {
+  margin-bottom: 10px;
+}
+.container6 .centr .img3 {
+  margin-bottom: 15px;
+}
+
+.container6 .centr .img4 {
+  margin-bottom: 13px;
+}
+
+.container6 .centr img {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.container6 .centr .text1 {
+  text-align: center;
+  font-family: "Roboto Slab", "serif";
+  font-size: 15px;
+  font-style: oblique;
+  margin-top: 70px;
+  padding-bottom: 40px;
+  line-height: 2em;
+  color: #555555;
+}
+
+.container6 .centr .jon {
+  padding-bottom: 60px;
+  text-align: center;
+  color: #555555;
+}
+
+.container7 {
+  background-color: #c0301c;
+}
+
+.container7 .centr {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 97px;
+}
+.container7 .centr svg {
+  font-size: 16px;
+  color: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 7px;
+  margin-left: 7px;
+  margin-bottom: 60px;
+}
+
+.container7 .centr .autor {
+  margin-bottom: 60px;
+  font-family: "Roboto Slab", "serif";
+  font-size: 9px;
+  color: #dddddd;
+}
+
+
+@media (max-width: 1250px){
+	.center{
+		width: 90%;
+	}
+  .container3 .center .column{
+  column-count: 2;
+  column-width: 200px;
+  column-gap: 15px;
+  height: 500px;
+  max-width: 100%;
+}
+.container4 .galery div .cursor {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  right: 0;
+  top: 0;
+  display: none;
+  text-align: center;
+  max-width: 100%;}
+
+  .container4 .galery div .cursor .okno {
+  text-align: center;
+  margin-top: 60px;
+}
+.container4 .galery div .cursor .view a{
+  font-size: 10px;
+}
+
+.container5 .btn {
+  margin-top: 40px;
+}
+.container5 .str1 {
+  padding-top: 100px;
+}
+.container5 .str2 {
+  margin-top: 22px;
+}
+.container6 .centr .cards{
+  margin-left: 3%;}
+
+.container6 .centr .cards{
+  text-align: center;
+}
+}
+
+@media (max-width: 992px){
+	.container1 .menu{
+		display: none;
+	}
+	.container4 .galery div{
+		margin-bottom: 20px;
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+  .container3 .center .column{
+  column-count: 2;
+  column-width: 200px;
+  column-gap: 15px;
+  height: 500px;
+  max-width: 90%;
+  margin-left: 5%;
+  }
+  .container4 .galery div .cursor {
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  right: 0;
+  top: 0;
+  display: none;
+  text-align: center;
+  max-width: 100%;}
+
+  .container4 .galery div .cursor .okno {
+  text-align: center;
+  margin-top: 40px;
+}
+.container4 .galery div .cursor .view a{
+  padding: 5px 10px 5px 10px;
+}
+}
+
+@media (max-width: 768px){
+	.container2 .cards div{
+		width: 45%;
+	}
+	.container4 .galery div{
+		width: 44%;
+  }
+  .container4 .galery div .cursor .okno {
+    text-align: center;
+      margin-top: 70px;
+  }
+  .container4 .galery div .cursor {
+    position: absolute;
+    left: -4px;
+    bottom: -18px;
+    right: 0;
+    top: 0;
+    display: none;
+    text-align: center;
+    max-width: 100%;}
+ 
+
+@media (max-width: 500px){
+	.container2 .cards div{
+		width: 100%;
+	}
+	.container4 .galery div{
+		width: 98%;
+	}
+   .container4 .galery div .cursor {
+  position: absolute;
+  left: -4px;
+  bottom: -18px;
+  right: 0;
+  top: 0;
+  display: none;
+  text-align: center;
+  max-width: 100%;}
+
+  .container4 .galery div .cursor .okno {
+  text-align: center;
+  margin-top: 75px;
+}
+.container4 .galery div .cursor .view a{
+  padding: 10px 20px 10px 20px;
+}
+.container6 .centr .cards{
+  margin-left: 11%;
+}
+.container2 .centr{
+  max-width: 95%;
+}
+}
+
+@media (max-width: 360px){
+  .container1 h1{
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 150px;
+  }
+  .container3 .center .column{
+    column-count: 2;
+    column-width: 200px;
+    column-gap: 15px;
+    height: 100%;
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+@media (max-height: 800px){
+	.container1 h1{
+		margin-top: 28vh;
+	}
+	.container1 .descr{
+		margin-top: 4vh;
+	}
+	.container1 .btn{
+		margin-top: 10vh;
+	}
+}
